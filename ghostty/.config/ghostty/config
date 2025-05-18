@@ -1,0 +1,15 @@
+theme = "Everforest Dark - Hard"
+
+background-opacity = 0.86
+background-blur = 20
+
+font-family = MesloLGLDZ Nerd Font
+font-size = 14
+
+macos-titlebar-style = hidden
+macos-option-as-alt = true
+mouse-hide-while-typing = true
+
+window-decoration = true
+
+copy-on-select = clipboard
