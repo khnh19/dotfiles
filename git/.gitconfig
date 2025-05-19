@@ -1,0 +1,29 @@
+[user]
+    name = Khanh Nguyen
+    email = khnhn1901@gmail.com
+
+[alias]
+    a = add
+    c = commit
+    st = status
+    co = checkout
+    p = push
+    l = log --oneline --decorate --color --graph
+
+[init]
+    defaultBranch = main
+
+[core]
+    editor = nvim
+
+[pull]
+    rebase = true
+
+[fetch]
+    prune = true
+
+[commit]
+    verbose = true
+
+[credential]
+    helper = cache
