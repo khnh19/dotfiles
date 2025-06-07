@@ -1,0 +1,16 @@
+[user]
+    name = Khanh Nguyen 
+    email = khnhn1901@gmail.com 
+
+[core]
+    editor = nvim
+
+[alias]
+    a = add
+    aa = add --all
+    c = commit
+    st = status
+    co = checkout
+    fa = fetch --all
+    p = push
+    pf = push -f

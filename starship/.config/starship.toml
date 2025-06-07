@@ -1,0 +1,24 @@
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$python\
+[](#a7c080) """
+
+add_newline = false
+
+[directory]
+style = "fg:#e69875"
+
+[git_branch]
+format = "[$branch]($style) "
+style = "fg:#a7c080"
+
+[cmd_duration]
+format = "[$duration]($style) "
+style = "fg:#dbbc7f"
+
+[python]
+format = "[$virtualenv]($style) "
+style = "fg:#83c092"
