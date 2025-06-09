@@ -1,0 +1,37 @@
+
+{
+  "editor.fontFamily": "BlexMono Nerd Font",
+  "editor.fontSize": 15,
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top",
+  "window.density.editorTabHeight": "compact",
+  "workbench.colorTheme": "poimandres",
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 0.5,
+  "breadcrumbs.enabled": false,
+  "editor.lineNumbers": "relative",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "vim.highlightedyank.enable": true,
+  "vim.leader": "<space>",
+  "vim.hlsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["leader", "w"],
+      "commands": [":w!"]
+    },
+    {
+      "before": ["leader", "q"],
+      "commands": [":q!"]
+    },
+    {
+      "before": ["leader", "x"],
+      "commands": [":x!"]
+    },
+    {
+      "after": ["g", "g", "V", "G"],
+      "before": ["<c-a>"]
+    }
+  ]
+}
