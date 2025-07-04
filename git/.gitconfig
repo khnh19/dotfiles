@@ -1,0 +1,6 @@
+[user]
+	name = Khanh Nguyen
+	email = khnhn1901@gmail.com
+
+[core]
+  editor = nvim
