@@ -1,0 +1,9 @@
+font-size = 16
+theme = nordic
+macos-titlebar-style = native
+background-opacity = 0.95
+background-blur = 60
+copy-on-select = clipboard
+keybind = cmd+shift+-=new_split:right
+keybind = cmd+-=new_split:down
+keybind = global:cmd+grave_accent=toggle_quick_terminal
