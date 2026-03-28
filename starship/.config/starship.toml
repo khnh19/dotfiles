@@ -1,0 +1,17 @@
+format = """
+$directory\
+$git_branch\
+$character"""
+
+add_newline = false
+
+[directory]
+style = "magenta"
+
+[git_branch]
+format = "[$branch]($style) "
+style = "bright-black"
+
+[character]
+success_symbol = "[λ](magenta) "
+error_symbol = "[λ](red) "
