@@ -1,0 +1,8 @@
+[[language]]
+name = "cpp"
+auto-format = true
+
+[[language]]
+name = "python"
+language-servers = ["pyright", "ruff"]
+auto-format = true
