@@ -1,0 +1,13 @@
+theme = "flexoki_dark"
+
+[keys.normal.space]
+w = ":w"
+q = ":q"
+
+[editor]
+line-number = "relative"
+auto-info = false
+default-yank-register = "+"
+
+[editor.cursor-shape]
+insert = "bar"
